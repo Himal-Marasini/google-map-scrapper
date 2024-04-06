@@ -1,0 +1,12 @@
+{
+  "name": "google-maps-scraper",
+  "version": "1.0.0",
+  "description": "- sudo docker build -t google-maps-scraper-dev -f Dockerfile.dev .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
