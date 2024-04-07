@@ -25,6 +25,10 @@ def start_google_maps_scraper(input_file, results_file, email=True):
         print("The google-maps-scraper executable was not found in the current directory.")
         return
     
+    # Check if results file exists, delete it if it does
+    if os.path.exists(results_file):
+        os.remove(results_file)
+    
     command = [exec_path, '-input', input_file, '-results', results_file]
     
     if email:
